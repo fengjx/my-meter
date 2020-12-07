@@ -12,6 +12,7 @@ import java.util.concurrent.LinkedBlockingDeque;
 public class Launcher {
 
     public static void main(String[] args) throws InterruptedException {
+        // 读取相关参数，暂时没做异常参数判断
         String url = args[0];
         int total = Integer.parseInt(args[1]);
         int parall = Integer.parseInt(args[2]);

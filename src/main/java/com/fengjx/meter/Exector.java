@@ -10,7 +10,8 @@ import java.util.concurrent.CountDownLatch;
 import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
-/**执行 http 请求
+/**
+ * 执行 http 请求
  * @author fengjianxin
  */
 public class Exector implements Runnable {
